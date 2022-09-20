@@ -1,0 +1,25 @@
+input {
+	cursor: edit;
+}
+.stats > label {
+	text-align: right;
+}
+#roomSlug {
+	-webkit-text-stroke: 1px black;
+	color: white;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.tooltipped {
+	position: relative;
+	cursor: pointer;
+}
+.tooltipped:hover .tooltip {
+	display: block;
+}
+.tooltip {
+	position: absolute;
+	bottom: 1.75rem;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: none;
+}
